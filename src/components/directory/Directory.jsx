@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MenuItem from '../menu/MenuItem';
-import { sections } from '../../constants/sections';
+import { SECTIONS } from '../../constants/sections';
 import './Directory.scss';
 
 export default class Directory extends Component {
@@ -8,7 +8,7 @@ export default class Directory extends Component {
     super();
 
     this.state = {
-      sections,
+      sections: SECTIONS,
     };
   }
 
